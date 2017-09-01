@@ -10,6 +10,13 @@ import UIKit
 
 class BookFormTableViewController: UITableViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var authorTextField: UITextField!
+    @IBOutlet weak var genreTextField: UITextField!
+    @IBOutlet weak var lengthTextField: UITextField!
+    @IBOutlet weak var saveButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
