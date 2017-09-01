@@ -9,6 +9,8 @@
 import UIKit
 
 class BookFormTableViewController: UITableViewController {
+    
+    var book: Book?
 
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var authorTextField: UITextField!
