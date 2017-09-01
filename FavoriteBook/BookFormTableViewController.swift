@@ -10,6 +10,10 @@ import UIKit
 
 class BookFormTableViewController: UITableViewController {
     
+    struct PropertyKeys {
+        static let unwind = "UnwindToBookTable"
+    }
+    
     var book: Book?
 
     @IBOutlet weak var titleTextField: UITextField!

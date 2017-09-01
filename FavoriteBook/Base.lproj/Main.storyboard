@@ -191,7 +191,7 @@
                                                     <state key="normal" title="Save"/>
                                                     <connections>
                                                         <action selector="saveButtonTapped:" destination="NSb-wP-jxo" eventType="touchUpInside" id="x1e-yX-7Wv"/>
-                                                        <segue destination="Ikh-Rg-jla" kind="unwind" identifier="PropertyKeys" unwindAction="prepareForUnwindWithSegue:" id="XP4-HZ-kFf"/>
+                                                        <segue destination="Ikh-Rg-jla" kind="unwind" identifier="UnwindToBookTable" unwindAction="prepareForUnwindWithSegue:" id="XP4-HZ-kFf"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
