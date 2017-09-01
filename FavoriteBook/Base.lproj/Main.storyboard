@@ -81,6 +81,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DeV-3u-VxM" id="w7j-bd-nya">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TSC-7I-f3s">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="TSC-7I-f3s" firstAttribute="leading" secondItem="w7j-bd-nya" secondAttribute="leading" id="4P2-Ul-iAs"/>
+                                                <constraint firstAttribute="bottom" secondItem="TSC-7I-f3s" secondAttribute="bottom" id="DaO-Cb-B3Q"/>
+                                                <constraint firstAttribute="trailing" secondItem="TSC-7I-f3s" secondAttribute="trailing" id="G8q-Qt-M1h"/>
+                                                <constraint firstItem="TSC-7I-f3s" firstAttribute="top" secondItem="w7j-bd-nya" secondAttribute="top" id="Kj5-Ps-flL"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -93,6 +107,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xmR-ff-hmu" id="fgm-Ys-cWo">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CJq-z0-HGM">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="CJq-z0-HGM" secondAttribute="trailing" id="1BE-bJ-eDE"/>
+                                                <constraint firstItem="CJq-z0-HGM" firstAttribute="top" secondItem="fgm-Ys-cWo" secondAttribute="top" id="32P-YJ-NRg"/>
+                                                <constraint firstAttribute="bottom" secondItem="CJq-z0-HGM" secondAttribute="bottom" id="3N2-lj-aXb"/>
+                                                <constraint firstItem="CJq-z0-HGM" firstAttribute="leading" secondItem="fgm-Ys-cWo" secondAttribute="leading" id="SXh-Xg-Kkm"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -105,6 +133,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rF5-iP-I8L" id="hzE-81-nye">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Don-ie-wFJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Don-ie-wFJ" firstAttribute="leading" secondItem="hzE-81-nye" secondAttribute="leading" id="Jh3-v7-Yh0"/>
+                                                <constraint firstAttribute="bottom" secondItem="Don-ie-wFJ" secondAttribute="bottom" id="c1Y-Qs-Nvj"/>
+                                                <constraint firstAttribute="trailing" secondItem="Don-ie-wFJ" secondAttribute="trailing" id="f6k-IJ-mZW"/>
+                                                <constraint firstItem="Don-ie-wFJ" firstAttribute="top" secondItem="hzE-81-nye" secondAttribute="top" id="kTb-PV-kWI"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -117,6 +159,20 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cNz-I3-WO3" id="hKQ-Zu-oYs">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xii-39-0yr">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xii-39-0yr" firstAttribute="top" secondItem="hKQ-Zu-oYs" secondAttribute="top" id="dod-Ko-HS4"/>
+                                                <constraint firstAttribute="trailing" secondItem="xii-39-0yr" secondAttribute="trailing" id="fQb-XR-qcD"/>
+                                                <constraint firstItem="xii-39-0yr" firstAttribute="leading" secondItem="hKQ-Zu-oYs" secondAttribute="leading" id="hKQ-vN-vJZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="xii-39-0yr" secondAttribute="bottom" id="nM5-dn-ayk"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -129,6 +185,13 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jVr-1u-cR7" id="Bxe-as-THK">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCx-Ty-s6j">
+                                                    <rect key="frame" x="164" y="7" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
