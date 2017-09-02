@@ -39,7 +39,7 @@ class BookTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: PropertyKeys.bookCell, for: indexPath) as! BookTableViewCell
         
         let book = books[indexPath.row]
-        cell.update(with: Book)
+        cell.update(with: book)
 
         return cell
     }
