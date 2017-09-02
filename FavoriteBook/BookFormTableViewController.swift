@@ -20,8 +20,6 @@ class BookFormTableViewController: UITableViewController {
     @IBOutlet weak var authorTextField: UITextField!
     @IBOutlet weak var genreTextField: UITextField!
     @IBOutlet weak var lengthTextField: UITextField!
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

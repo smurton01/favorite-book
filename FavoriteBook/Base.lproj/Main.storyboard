@@ -271,7 +271,6 @@
                                                     <state key="normal" title="Save"/>
                                                     <connections>
                                                         <action selector="saveButtonTapped:" destination="NSb-wP-jxo" eventType="touchUpInside" id="x1e-yX-7Wv"/>
-                                                        <segue destination="Ikh-Rg-jla" kind="unwind" identifier="UnwindToBookTable" unwindAction="prepareForUnwindWithSegue:" id="XP4-HZ-kFf"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -290,6 +289,7 @@
                         <outlet property="genreTextField" destination="Don-ie-wFJ" id="uDg-fu-eOw"/>
                         <outlet property="lengthTextField" destination="xii-39-0yr" id="oZD-tB-e1k"/>
                         <outlet property="titleTextField" destination="TSC-7I-f3s" id="PF9-zs-4et"/>
+                        <segue destination="Ikh-Rg-jla" kind="unwind" identifier="UnwindToBookTable" unwindAction="prepareForUnwindWithSegue:" id="75D-hd-KYZ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6NY-zU-CrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
